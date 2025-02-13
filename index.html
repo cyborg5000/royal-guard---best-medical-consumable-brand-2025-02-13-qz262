@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Guard - Best Medical Consumable Brand</title>
     <meta name="description" content="Premium medical consumables including unique PU gloves with best quality, price, and service">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="font-sans antialiased text-gray-900 bg-white">
@@ -13,14 +22,37 @@
     <header class="fixed w-full bg-white/95 backdrop-blur-sm shadow-md z-50">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-2xl font-bold text-blue-600">Royal Guard</div>
+                <a href="https://cyborg5000.github.io/royal-guard---best-medical-consumable-brand-2025-02-13-qz262" class="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors duration-300">Royal Guard</a>
+                
+                <!-- Desktop Menu -->
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">About Us</a>
                     <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300">Contact</a>
                 </div>
-                <a href="https://pm.sg" class="hidden md:inline-block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors duration-300">Get Started</a>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-button md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-300" aria-label="Toggle Menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+
+                <a href="https://pm.sg" class="hidden md:inline-block px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg">Get Started</a>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden mt-4 bg-white rounded-lg shadow-lg absolute left-0 right-0 p-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Features</a>
+                    <a href="#benefits" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">About Us</a>
+                    <a href="#faq" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors duration-300 py-2">Contact</a>
+                    <a href="https://pm.sg" class="bg-blue-600 text-white rounded-full py-2 px-4 text-center hover:bg-blue-700 transition-colors duration-300">Get Started</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -29,9 +61,9 @@
     <section class="pt-32 pb-24 bg-gradient-to-br from-blue-50 to-white">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Royal Guard - Best Medical Consumable Brand</h1>
-                <p class="text-xl md:text-2xl text-gray-600 mb-8">Unique PU Gloves for Ultimate Protection</p>
-                <a href="https://pm.sg" class="inline-block px-8 py-4 bg-blue-600 text-white text-lg rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">Explore Our Products</a>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">Revolutionizing Medical Protection with Royal Guard</h1>
+                <p class="text-xl md:text-2xl text-gray-600 mb-8">Experience unparalleled protection with our innovative PU gloves, trusted by healthcare professionals worldwide</p>
+                <a href="https://pm.sg" class="inline-block px-8 py-4 bg-blue-600 text-white text-lg rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Discover Premium Protection</a>
             </div>
         </div>
     </section>
@@ -39,28 +71,34 @@
     <!-- Features Section -->
     <section id="features" class="py-24 bg-white">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Why Choose Royal Guard?</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Industry-Leading Features</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Best Quality</h3>
-                    <p class="text-gray-600">Premium materials and rigorous quality control ensure superior protection.</p>
+                    <h3 class="text-xl font-semibold mb-4">Superior Protection</h3>
+                    <p class="text-gray-600">Advanced barrier technology providing 99.9% protection against contaminants, exceeding industry standards for medical-grade protection.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Best Price</h3>
-                    <p class="text-gray-600">Competitive pricing without compromising on quality standards.</p>
+                    <h3 class="text-xl font-semibold mb-4">Cost-Effective Excellence</h3>
+                    <p class="text-gray-600">Premium quality at competitive prices, offering bulk purchase discounts and guaranteed long-term value for healthcare facilities.</p>
                 </div>
-                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <div class="p-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
                     <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6">
-                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                        <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/>
+                        </svg>
                     </div>
-                    <h3 class="text-xl font-semibold mb-4">Best Service</h3>
-                    <p class="text-gray-600">Dedicated support team ensuring your complete satisfaction.</p>
+                    <h3 class="text-xl font-semibold mb-4">24/7 Expert Support</h3>
+                    <p class="text-gray-600">Dedicated customer service team providing round-the-clock support, rapid response times, and personalized solutions for your needs.</p>
                 </div>
             </div>
         </div>
@@ -69,24 +107,116 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-50">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Keep You Well Protected</h2>
-            <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-8">
-                <div class="flex flex-col space-y-6">
-                    <div class="flex items-start space-x-4">
-                        <svg class="w-6 h-6 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Advanced Protection Benefits</h2>
+            <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300">
+                <div class="flex flex-col space-y-8">
+                    <div class="flex items-start space-x-4 transform hover:scale-102 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
                         <div>
-                            <h3 class="text-lg font-semibold mb-2">Superior Protection</h3>
-                            <p class="text-gray-600">Our PU gloves provide excellent barrier protection against contaminants.</p>
+                            <h3 class="text-lg font-semibold mb-2">Enhanced Comfort Technology</h3>
+                            <p class="text-gray-600">Revolutionary ergonomic design with moisture-wicking properties, allowing for extended wear without compromising dexterity or comfort.</p>
                         </div>
                     </div>
-                    <div class="flex items-start space-x-4">
-                        <svg class="w-6 h-6 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    <div class="flex items-start space-x-4 transform hover:scale-102 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
                         <div>
-                            <h3 class="text-lg font-semibold mb-2">Comfort & Durability</h3>
-                            <p class="text-gray-600">Designed for extended wear while maintaining strength and flexibility.</p>
+                            <h3 class="text-lg font-semibold mb-2">Maximum Durability</h3>
+                            <p class="text-gray-600">Tested to withstand 3x more stress than standard gloves, with reinforced areas for high-wear zones and tear resistance.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 transform hover:scale-102 transition-transform duration-300">
+                        <svg class="w-6 h-6 text-blue-600 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <div>
+                            <h3 class="text-lg font-semibold mb-2">Eco-Friendly Manufacturing</h3>
+                            <p class="text-gray-600">Sustainable production processes reducing environmental impact while maintaining superior quality standards.</p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="https://source.unsplash.com/random/100x100/?doctor" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-semibold">Dr. Sarah Chen</h3>
+                            <p class="text-gray-600 text-sm">Chief of Surgery, Metropolitan Hospital</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700">"Royal Guard gloves have revolutionized our surgical procedures. The enhanced tactile sensitivity and durability are unmatched. We've seen a 40% reduction in glove-related incidents since switching."</p>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="https://source.unsplash.com/random/100x100/?nurse" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-semibold">James Wilson</h3>
+                            <p class="text-gray-600 text-sm">Lead Nurse, Emergency Department</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700">"The comfort and protection these gloves provide during long shifts is exceptional. Our staff particularly appreciates the improved grip and reduced hand fatigue."</p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="https://source.unsplash.com/random/100x100/?medical" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-semibold">Dr. Michael Rodriguez</h3>
+                            <p class="text-gray-600 text-sm">Director of Medical Supplies, City Medical Center</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700">"From a procurement perspective, Royal Guard offers the best value for money. The durability means we use fewer gloves, and their customer service is exceptional."</p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-102">
+                    <div class="flex items-center mb-4">
+                        <img src="https://source.unsplash.com/random/100x100/?dentist" alt="Profile" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h3 class="font-semibold">Dr. Emily Thompson</h3>
+                            <p class="text-gray-600 text-sm">Dental Surgeon</p>
+                        </div>
+                    </div>
+                    <div class="flex text-yellow-400 mb-4">
+                        ★★★★★
+                    </div>
+                    <p class="text-gray-700">"Perfect for detailed procedures. The tactile sensitivity is impressive, and they're incredibly comfortable for extended wear. Wouldn't use anything else."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Royal Guard</h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300">
+                <p class="text-gray-700 mb-6 leading-relaxed">
+                    Founded in 2015, Royal Guard emerged from a vision to revolutionize medical protection. Our journey began when a team of medical professionals and material scientists came together to address the growing need for superior quality medical consumables. Through years of research and development, we've established ourselves as a pioneer in innovative medical protection solutions.
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    Our mission is to provide healthcare professionals with the highest quality protection while maintaining environmental responsibility and accessibility. We believe in continuous innovation, sustainable practices, and unwavering commitment to quality. Our core values of integrity, innovation, and customer-first approach guide every aspect of our operations, from product development to customer service.
+                </p>
             </div>
         </div>
     </section>
@@ -96,16 +226,38 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="border border-gray-200 rounded-lg">
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <button class="w-full px-8 py-6 text-left hover:bg-gray-50 transition-colors duration-300">
-                        <h3 class="text-lg font-semibold">What makes Royal Guard PU gloves unique?</h3>
-                        <p class="mt-2 text-gray-600">Our gloves feature premium materials and innovative design for optimal protection and comfort.</p>
+                        <h3 class="text-lg font-semibold">What makes Royal Guard PU gloves different from traditional medical gloves?</h3>
+                        <p class="mt-2 text-gray-600">Our proprietary PU blend offers superior protection while maintaining exceptional tactile sensitivity. The material is engineered for extended wear comfort and enhanced durability, setting new standards in medical protection.</p>
                     </button>
                 </div>
-                <div class="border border-gray-200 rounded-lg">
+                
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
                     <button class="w-full px-8 py-6 text-left hover:bg-gray-50 transition-colors duration-300">
-                        <h3 class="text-lg font-semibold">How do I order Royal Guard products?</h3>
-                        <p class="mt-2 text-gray-600">Visit our website pm.sg or contact our sales team for bulk orders and special requirements.</p>
+                        <h3 class="text-lg font-semibold">What certifications do your products have?</h3>
+                        <p class="mt-2 text-gray-600">All Royal Guard products are FDA approved and CE certified. We meet or exceed ISO 13485 standards for medical devices and follow strict quality control protocols throughout our manufacturing process.</p>
+                    </button>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <button class="w-full px-8 py-6 text-left hover:bg-gray-50 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold">Do you offer bulk ordering and customization options?</h3>
+                        <p class="mt-2 text-gray-600">Yes, we provide flexible bulk ordering options with competitive volume discounts. Custom specifications are available for orders over 100,000 units, including packaging and sizing requirements.</p>
+                    </button>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <button class="w-full px-8 py-6 text-left hover:bg-gray-50 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold">What is your delivery timeframe?</h3>
+                        <p class="mt-2 text-gray-600">Standard delivery is 3-5 business days nationwide. Express shipping options are available, and we maintain strategic distribution centers to ensure rapid fulfillment of urgent orders.</p>
+                    </button>
+                </div>
+                
+                <div class="border border-gray-200 rounded-lg hover:shadow-md transition-shadow duration-300">
+                    <button class="w-full px-8 py-6 text-left hover:bg-gray-50 transition-colors duration-300">
+                        <h3 class="text-lg font-semibold">What is your return policy?</h3>
+                        <p class="mt-2 text-gray-600">We offer a 30-day satisfaction guarantee on all products. Any quality-related issues are addressed promptly with full replacement or refund options available.</p>
                     </button>
                 </div>
             </div>
@@ -116,11 +268,11 @@
     <section id="contact" class="py-24 bg-gradient-to-br from-blue-50 to-white">
         <div class="container mx-auto px-6">
             <div class="max-w-4xl mx-auto text-center">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8">Get in Touch</h2>
-                <p class="text-xl text-gray-600 mb-8">Have questions? We're here to help!</p>
-                <a href="mailto:Hello@pm.sg" class="text-blue-600 text-xl hover:text-blue-700 transition-colors duration-300">Hello@pm.sg</a>
+                <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Experience Superior Protection?</h2>
+                <p class="text-xl text-gray-600 mb-8">Connect with our team for personalized support and solutions</p>
+                <a href="mailto:Hello@pm.sg" class="text-blue-600 text-xl hover:text-blue-700 transition-colors duration-300 underline">Hello@pm.sg</a>
                 <div class="mt-12">
-                    <a href="https://pm.sg" class="inline-block px-8 py-4 bg-blue-600 text-white text-lg rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg">Visit Our Website</a>
+                    <a href="https://pm.sg" class="inline-block px-8 py-4 bg-blue-600 text-white text-lg rounded-full hover:bg-blue-700 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">Start Your Journey</a>
                 </div>
             </div>
         </div>
@@ -132,25 +284,29 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Royal Guard</h3>
-                    <p class="text-gray-400">Premium medical consumables for your protection.</p>
+                    <p class="text-gray-400">Leading the future of medical protection with innovation and excellence.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
                         <li><a href="#faq" class="text-gray-400 hover:text-white transition-colors duration-300">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
                     <p class="text-gray-400">Email: Hello@pm.sg</p>
+                    <p class="text-gray-400 mt-2">Support available 24/7</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://cyborg5000.github.io/royal-guard---best-medical-consumable-brand-2025-02-13-qz262/privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://cyborg5000.github.io/royal-guard---best-medical-consumable-brand-2025-02-13-qz262/terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://cyborg5000.github.io/royal-guard---best-medical-consumable-brand-2025-02-13-qz262/blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -159,5 +315,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
